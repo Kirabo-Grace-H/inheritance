@@ -12,7 +12,11 @@ class Rainbow(name: String,symbol: String,hexcode: String) :Color(name, symbol, 
     fun rainbowColors(){
         val colors = listOf(
             Rainbow("Red","R","#ff0000"),
-            Rainbow("BLUE","R","#ff0000"),
+            Rainbow("BLUE","R","#0000FF"),
+            Rainbow("GREEN","G","#008000"),
+            Rainbow("INDIGO","I","#4B0082"),
+            Rainbow("VIOLET","V","#EE82EE"),
+            Rainbow("YELLOW","Y","#FFFF00")
         )
         for (x in colors){
             println(x.returnAttributes())
